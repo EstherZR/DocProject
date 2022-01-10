@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://estherzr.github.io/DocProject/sitemap.xml.gz
