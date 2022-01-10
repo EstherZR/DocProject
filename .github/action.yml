@@ -1,0 +1,37 @@
+name: Retype Build Action
+author: Object.NET, Inc.
+description: |-
+  Builds documentation using Retype. The built output from this step can be
+  published to the hosting of choice.
+inputs:
+  base:
+    description: Value to override Retype's "base" config
+    required: false
+  license:
+    description: |-
+      License key to use with Retype. The Retype license key is private.
+      Please store your license key as a GitHub secret.
+    required: false
+  config:
+    description: |-
+      Path to the retype.yml file. May point to a directory, a JSON or YAML
+      file. When a directory, retype will look for 'retype.[yml|yaml|json]' in
+      that directory and use it. If it is a file, retype will use it
+      regardless.
+outputs:
+  retype-output-path:
+    description: |-
+      Path to the Retype output that can be referenced in other steps
+      within the same workflow.
+    value: ${{ steps.retype-build.outputs.retype-output-path }}
+runs:
+  using: "composite"
+  steps:
+    - id: retype-build
+      run: "${GITHUB_ACTION_PATH}/build.sh"
+      shell: bash
+      env:
+        INPUT_OVERRIDE_TITLE: ${{ inputs.title }}
+        INPUT_OVERRIDE_BASE: ${{ inputs.base }}
+        INPUT_LICENSE_KEY: ${{ inputs.license }}
+        INPUT_CONFIG_PATH: ${{ inputs.config }}

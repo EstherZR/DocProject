@@ -1,0 +1,22 @@
+input: .
+output: .retype
+url: https://estherzr.github.io/DocProject/
+favicon: img/DPfavicon2.png
+
+branding:
+  title: Tutoriais
+  label: V 1.1
+  logo: img/DOClogo2.png
+  logoDark: img/DOClogo2.png
+  
+  strategy: <script type="text/javascript" src="/resources/js/retype.js" />
+  
+links:
+- icon: mark-github
+  text: GitHub
+  link: https://github.com/EstherZR
+- icon: img/linkedin.png
+  text: LinkedIn
+  link: https://www.linkedin.com/in/esther-zandomenico/
+footer:
+  copyright: "&copy; Copyright {{ year }}. All rights reserved _DocProject - EstherZR_."
