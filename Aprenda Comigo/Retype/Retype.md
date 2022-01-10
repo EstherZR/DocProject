@@ -43,5 +43,7 @@ _Comando:_ `npm --version`
 ![Versão do NPM](../img/npm.png "NPM")
 
 
+Bem, com o NPM instalado, os próximos artigos veremos como instalar o Retype.
+
  
 
