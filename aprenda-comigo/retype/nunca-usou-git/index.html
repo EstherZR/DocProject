@@ -9,28 +9,28 @@
     <!-- Primary Meta Tags -->
     <title>Comandos Git</title>
     <meta name="title" content="Comandos Git">
-    <meta name="description" content="##Lista de Comandos" />
+    <meta name="description" content="Verifica alterações Locais git ls-files --modified" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://estherzr.github.io/DocProject/aprenda-comigo/retype/nunca-usou-git/">
     <meta property="og:title" content="Comandos Git">
-    <meta property="og:description" content="##Lista de Comandos">
+    <meta property="og:description" content="Verifica alterações Locais git ls-files --modified">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://estherzr.github.io/DocProject/aprenda-comigo/retype/nunca-usou-git/">
     <meta property="twitter:title" content="Comandos Git">
-    <meta property="twitter:description" content="##Lista de Comandos">
+    <meta property="twitter:description" content="Verifica alterações Locais git ls-files --modified">
     
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("/DocProject/doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="/DocProject/img/dpfavicon2.png" rel="icon" />
-    <link href="/DocProject/resources/css/retype.css?v=1.11.2.709913205641" rel="stylesheet" data-turbo-track="reload" />
+    <link href="/DocProject/resources/css/retype.css?v=1.11.2.709913428030" rel="stylesheet" data-turbo-track="reload" />
 
-    <script type="text/javascript" src="/DocProject/resources/js/config.js?v=1.11.2.709913205641" defer data-turbo-track="reload"></script>
+    <script type="text/javascript" src="/DocProject/resources/js/config.js?v=1.11.2.709913428030" defer data-turbo-track="reload"></script>
     <script type="text/javascript" src="/DocProject/resources/js/retype.js?v=1.11.2" defer data-turbo-track="reload"></script>
-    <script id="lunr-js" type="text/javascript" src="/DocProject/resources/js/lunr.js?v=1.11.2.709913205641" defer></script>
+    <script id="lunr-js" type="text/javascript" src="/DocProject/resources/js/lunr.js?v=1.11.2.709913428030" defer></script>
 </head>
     <body>
         <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -214,27 +214,40 @@
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
-<p>##Lista de Comandos</p>
-<ul>
-<li><p>verifica alterações Locais
-<code v-pre>git ls-files --modified</code></p>
-</li>
-<li><p>Adicionar as alterações à lista de envio
-<code v-pre>git add .</code> ou <code v-pre>git add &lt;nome arquivo&gt;</code></p>
-</li>
-<li><p>Prepara o commit para o Git</p>
-</li>
-<li><p>A flag -m indica que vamos adicionar uma mensagem para aquele commit
-<code v-pre>git commit -m &quot;Ajuste retype ¬¬&quot;</code></p>
-</li>
-<li><p>Por fim, vamos enviar esse projeto com o seguinte comando:
-<code v-pre>git push -u origin main</code></p>
-</li>
-</ul>
-<p><code v-pre>git push -u origin retype</code></p>
+<doc-anchor-target id="lista-de-comandos">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#lista-de-comandos">#</doc-anchor-trigger>
+        <span>Lista de Comandos</span>
+    </h2>
+</doc-anchor-target>
+<blockquote>
+<ol>
+<li>Verifica alterações Locais
+<code v-pre>git ls-files --modified</code></li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="2">
+<li>Adiciona as alterações à lista de envio
+<code v-pre>git add .</code> ou <code v-pre>git add &lt;nome arquivo&gt;</code></li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="3">
+<li>Prepara o commit para o Git
+Onde a flag -m indica que vamos adicionar uma mensagem para aquele commit
+<code v-pre>git commit -m &quot;Ajuste retype ¬¬&quot;</code></li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="4">
+<li>Por fim, vamos enviar esse projeto com o seguinte comando:
+<code v-pre>git push -u origin main</code> ou <code v-pre>git push -u origin retype</code></li>
+</ol>
+</blockquote>
 <blockquote>
 <p>Extra:
-*Comando para criar a branch main
+Comando para criar a branch main
 <code v-pre>git branch -M main</code></p>
 </blockquote>
 
