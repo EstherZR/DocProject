@@ -2,7 +2,7 @@
 order : 993
 icon : 
 tags : [Aprenda Comigo, Retype]
-date : 2022-01-10
+date : 2022-06-30
 ---
 
 # Instalando o Retype?

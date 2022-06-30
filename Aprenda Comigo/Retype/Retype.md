@@ -2,7 +2,7 @@
 order : 994
 icon : 
 tags : [Aprenda Comigo, Retype]
-date : 2022-01-10
+date : 2022-06-30
 ---
 
 # Retype, o que é?
