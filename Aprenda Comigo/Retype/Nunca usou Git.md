@@ -30,3 +30,21 @@ date : 2022-06-30
   Comando para criar a branch main
   `git branch -M main`
 
+> 5. Listar todas as branchs existentes
+`git branch`
+
+> 6. Criando uma Branch a partir de Outra
+`git branch -c branchEspecifica MinhaNovaBrach` <br>
+
+`git checkout MinhaNovaBrach` <br>
+
+`git commit -m "Olha que commit lindo <3"` <br>
+
+`git push -u origin MinhaNovaBrach` <br>
+
+# Merge Entre Branchs
+Mude para o branch main usando o comando git checkout e, em seguida, 
+faça merge do branch usando o comando git merge junto com o nome do branch.
+
+`git checkout main` <br>
+`git merge homolog`
