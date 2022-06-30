@@ -13,21 +13,21 @@ date : 2022-06-30
 
 
 ## Lista de Comandos
-> 1. Verifica alterações Locais
+> 1. Verifica alterações Locais: <br>
 `git ls-files --modified`
 
-> 2. Adiciona as alterações à lista de envio
+> 2. Adiciona as alterações à lista de envio: <br>
 `git add .` ou `git add <nome arquivo>`
 
-> 3. Prepara o commit para o Git
-     Onde a flag -m indica que vamos adicionar uma mensagem para aquele commit
-`git commit -m "Ajuste retype ¬¬"`
+> 3. Prepara o commit para o Git.<br>
+     <i>Onde a flag -m indica que vamos adicionar uma mensagem para aquele commit</i><br>
+     `git commit -m "Ajuste retype ¬¬"`
 
-> 4. Por fim, vamos enviar esse projeto com o seguinte comando:
-`git push -u origin main` ou `git push -u origin retype`
+> 4. Por fim, vamos enviar esse projeto com o seguinte comando: <br>
+`git push -u origin main`
 
 > Extra:
-  Comando para criar a branch main
+  Comando para criar a branch main: <br>
   `git branch -M main`
 
 > 5. Listar todas as branchs existentes
