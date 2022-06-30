@@ -26,11 +26,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("/DocProject/doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="/DocProject/img/dpfavicon2.png" rel="icon" />
-    <link href="/DocProject/resources/css/retype.css?v=1.11.2.709905256798" rel="stylesheet" data-turbo-track="reload" />
+    <link href="/DocProject/resources/css/retype.css?v=1.11.2.709910830112" rel="stylesheet" data-turbo-track="reload" />
 
-    <script type="text/javascript" src="/DocProject/resources/js/config.js?v=1.11.2.709905256798" defer data-turbo-track="reload"></script>
+    <script type="text/javascript" src="/DocProject/resources/js/config.js?v=1.11.2.709910830112" defer data-turbo-track="reload"></script>
     <script type="text/javascript" src="/DocProject/resources/js/retype.js?v=1.11.2" defer data-turbo-track="reload"></script>
-    <script id="lunr-js" type="text/javascript" src="/DocProject/resources/js/lunr.js?v=1.11.2.709905256798" defer></script>
+    <script id="lunr-js" type="text/javascript" src="/DocProject/resources/js/lunr.js?v=1.11.2.709910830112" defer></script>
 </head>
     <body>
         <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -243,8 +243,16 @@ Se você possui conhecimento em inglês, conseguirá seguir os passos para cria�
         <span>Pré Requisitos</span>
     </h1>
 </doc-anchor-target>
-<p>Para instalar o Retype, você precisará ter instalado em sua máquina uma das opções a seguir:
-<code v-pre>npm</code>, <code v-pre>yarn</code> o <code v-pre>dotnetCLI</code>.</p>
+<ol>
+<li>Instale o Git.</li>
+</ol>
+<blockquote>
+<p><span class="docs-emoji">&#x1F449;</span> <a href="https://git-scm.com/download/win">Git Para Windows</a></p>
+</blockquote>
+<ol start="2">
+<li>Para instalar o Retype, você precisará ter instalado em sua máquina uma das opções a seguir:
+<code v-pre>npm</code>, <code v-pre>yarn</code> o <code v-pre>dotnetCLI</code>.</li>
+</ol>
 <p>Para nosso artigo, usaremos a instalação pelo <code v-pre>npm</code>.</p>
 <blockquote>
 <p><span class="docs-emoji">&#x1F929;</span> <span style="color:darkgreen"><strong>Se liga na Dica:</strong> </span><br />
@@ -257,6 +265,9 @@ Para esse tutorial estou com o npm na versão abaixo: <br>
 </p>
 </blockquote>
 <p>Bem, com o NPM instalado, os próximos artigos veremos como instalar o Retype.</p>
+<blockquote>
+<p><span class="docs-emoji">&#x1F449;</span> <a href="https://nodejs.org/en/download/">Caso não tenha o NPM</a></p>
+</blockquote>
 
 
 <div class="flex items-center mt-6 mb-6">
