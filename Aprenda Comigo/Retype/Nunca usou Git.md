@@ -13,6 +13,12 @@ date : 2022-06-30
 
 
 ## Lista de Comandos
+> Inicial:
+  Comando para criar a branch main: <br>
+  `git branch -M main` <br>
+	Comando para inicializar a branch main: <br>
+	
+
 > 1. Verifica alterações Locais: <br>
 `git ls-files --modified`
 
@@ -26,9 +32,6 @@ date : 2022-06-30
 > 4. Por fim, vamos enviar esse projeto com o seguinte comando: <br>
 `git push -u origin main`
 
-> Extra:
-  Comando para criar a branch main: <br>
-  `git branch -M main`
 
 > 5. Listar todas as branchs existentes
 `git branch`
