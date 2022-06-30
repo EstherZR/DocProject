@@ -33,13 +33,10 @@ date : 2022-06-30
 > 5. Listar todas as branchs existentes
 `git branch`
 
-> 6. Criando uma Branch a partir de Outra
+> 6. Criando uma Branch a partir de Outra  <br>
 `git branch -c branchEspecifica MinhaNovaBrach` <br>
-
 `git checkout MinhaNovaBrach` <br>
-
 `git commit -m "Olha que commit lindo <3"` <br>
-
 `git push -u origin MinhaNovaBrach` <br>
 
 # Merge Entre Branchs
