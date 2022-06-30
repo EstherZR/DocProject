@@ -32,7 +32,11 @@ Se você possui conhecimento em inglês, conseguirá seguir os passos para cria�
 ---
 
 # Pré Requisitos
-Para instalar o Retype, você precisará ter instalado em sua máquina uma das opções a seguir:
+1. Instale o Git.
+>👉 [Git Para Windows](https://git-scm.com/download/win)
+
+
+2. Para instalar o Retype, você precisará ter instalado em sua máquina uma das opções a seguir:
 `npm`, `yarn` o `dotnetCLI`.
 
 Para nosso artigo, usaremos a instalação pelo `npm`.
@@ -45,5 +49,5 @@ _Comando:_ `npm --version`
 
 Bem, com o NPM instalado, os próximos artigos veremos como instalar o Retype.
 
- 
+>👉 [Caso não tenha o NPM](https://nodejs.org/en/download/)
 
