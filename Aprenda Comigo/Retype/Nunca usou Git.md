@@ -5,8 +5,6 @@ icon :
 tags : [Aprenda Comigo, Retype]
 date : 2022-06-30
 color: green
-visibility: 
-#http://localhost:5000/DocProject/aprenda-comigo/retype/teste-retype/
 ---
 
 # Comandos Git 
