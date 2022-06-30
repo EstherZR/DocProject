@@ -1,11 +1,10 @@
 ---
 order : 995
-layout: page
 icon : 
 tags : [Aprenda Comigo, Retype]
 date : 2022-06-30
-color: green
 ---
+
 
 # Comandos Git 
 <p style="text-align: justify;"> Para realizar a manipulação dos arquivos e fuinalmente publicá-los serão necessários o uso de alguns comandos git. Caso você nunca tenha utilizado o git antes, segue os comandos necessários:</p>
