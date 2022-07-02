@@ -34,8 +34,8 @@ Formada em **Sistemas de Informações** em 2019 porém já trabalhando com TI d
 	
 	<br>
 	
-  - Empresa: **Itix Tecnologia** [!badge variant="success" text="2020 - Atualmente"]
-	- Analista de Qualidade Pleno
+  <!-- - Empresa: **Itix Tecnologia** [!badge variant="success" text="2020 - Atualmente"]
+	- Analista de Qualidade Pleno -->
 ==-
 
 
